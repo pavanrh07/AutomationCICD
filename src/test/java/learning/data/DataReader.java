@@ -1,0 +1,28 @@
+/*
+ * package learning.data;
+ * 
+ * import java.io.File; import java.io.IOException; import
+ * java.nio.charset.StandardCharsets; import java.util.HashMap; import
+ * java.util.List;
+ * 
+ * import org.apache.commons.io.FileUtils;
+ * 
+ * import com.fasterxml.jackson.databind.ObjectMapper;
+ * 
+ * import learning.TestComponents.BaseTest; import
+ * net.bytebuddy.jar.asm.TypeReference;
+ * 
+ * public class DataReader extends BaseTest{ public List<HashMap<String,
+ * String>> getJsonDataToMap(String filePath) throws IOException { //read JSON
+ * to string
+ * 
+ * String jsonContent=FileUtils.readFileToString(new File (filePath),
+ * StandardCharsets.UTF_8); //string to HashMap Jackson DataBind ObjectMapper
+ * mapper =new ObjectMapper(); //List<HashMap<String,String>> data=
+ * mapper.readvalue(jsonContent, new
+ * TypeReference<List<HashMap<String,String>>>(){});
+ * 
+ * // return data; }
+ * 
+ * }
+ */
